@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos ou apenas
+        aumente e diminua a tela do seu navegado.</p>
+        <picture>
+            <source media="(max-width: 750px )" srcset="Imagens/foto-p.png" 
+            type="image/png">
+            <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png"
+            type="image/png">
+            <img src="Imagens/foto-g.png" alt="Imagem Flexível">
+        </picture>
+    <h1> Vamos Reproduzir Audios</h1>
+    <p>Vamos aprender a reproduzir arquivos de áudio no HTML5</p>
+        <audio preload="metadata" autoplay controls>
+            <source src="midias/abertura.mp3" type="audio/mpeg">
+        </audio>
+    <h1>Teste do Vídeo</h1>
+    <p>Videos com hospedagem local</p>
+        <video style="align-items: center;" src="video/meu-video.mp4.mp4" width="300" controls></video>
+</body>
+</html>

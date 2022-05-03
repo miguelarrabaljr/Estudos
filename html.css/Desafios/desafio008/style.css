@@ -1,0 +1,15 @@
+body{
+    font-size: 2em;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul{
+    text-align: center;
+}
+li{
+    text-align: justify;
+}
