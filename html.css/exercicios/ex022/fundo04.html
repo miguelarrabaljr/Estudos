@@ -7,12 +7,18 @@
     <title>Tamanho da Imagem de Fundo</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: skyblue;
             background-image: url('imagens/wallpaper002.jpg');
+            background-position: center top;background-repeat: repeat;
             background-size: cover;
-            background-position: center top;
-            background-repeat: no-repeat;
+            background-attachment: fixed;*/
+
+            /*SHORT HAND PARA BACKGROUND*/
+            /*COLOR > IMAGE > POSITION > REPEAT > [SIZE] > ATTACHMENT*/
+
+            background: skyblue url(imagens/wallpaper002.jpg) center top repeat fixed;
+            background-size: cover;
 
         }
         main{
@@ -26,10 +32,10 @@
             padding: 30px;
             text-align: center;
         }
-        div{
+        p{
             border: 3px dashed blue;
             padding: 20px;
-            margin-top: 10px;
+            margin: 10px;
             text-align: center;
         }
     </style>
@@ -39,9 +45,21 @@
         <h1>
             TESTE DE TAMANHO DA IMAGEM DE FUNDO
         </h1>
-        <div>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum quam voluptatum animi, dolore expedita eius fugiat, modi architecto labore eaque veritatis velit. Atque ipsam laborum officia sunt saepe eum?
-        </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eligendi consequuntur. Soluta voluptates ipsum perspiciatis quisquam, perferendis ab in quibusdam id, minima incidunt autem magnam culpa labore! Deserunt, suscipit sit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate at nemo hic quae dolor vitae, in cupiditate debitis vel molestias quod omnis sint, repudiandae eum doloribus quisquam laudantium quo.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum quam voluptatum animi, dolore expedita eius fugiat, modi architecto labore eaque veritatis velit. Atque ipsam laborum officia sunt saepe eum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eligendi consequuntur. Soluta voluptates ipsum perspiciatis quisquam, perferendis ab in quibusdam id, minima incidunt autem magnam culpa labore! Deserunt, suscipit sit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate at nemo hic quae dolor vitae, in cupiditate debitis vel molestias quod omnis sint, repudiandae eum doloribus quisquam laudantium quo.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum quam voluptatum animi, dolore expedita eius fugiat, modi architecto labore eaque veritatis velit. Atque ipsam laborum officia sunt saepe eum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eligendi consequuntur. Soluta voluptates ipsum perspiciatis quisquam, perferendis ab in quibusdam id, minima incidunt autem magnam culpa labore! Deserunt, suscipit sit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate at nemo hic quae dolor vitae, in cupiditate debitis vel molestias quod omnis sint, repudiandae eum doloribus quisquam laudantium quo.
+        </p>
     </main>
     
 </body>
