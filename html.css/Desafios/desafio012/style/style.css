@@ -44,10 +44,10 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    padding: 10vh 30px;
+    padding: 10vh 80px;
     line-height: 2em;
     font-family: var(--font03);
-    font-size: 2vw;
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
