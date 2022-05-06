@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Tabela</title>
+    <style>
+        body{
+            font-family: serif;
+        }
+        table{
+            width: 500px;
+            border: 2px double black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        thead, tfoot {
+            border: 1px solid black;
+            background-color: skyblue;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        tbody{
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td {
+            text-align: center;
+            width: 100px;
+        }
+        tbody>tr:hover{
+            height: 30px;
+            background-color: orange;
+            color: blue;
+            font-weight: bold;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha tabela dos discos dos Beatles</h1>
+    <table>
+        <caption>Discografia dos Beatles</caption>
+        <thead>
+            <th>Título</th>
+            <th>Quantidade</th>
+            <th scope="col" style="width: 30px;">Ano</th>
+        </thead>
+        <tfoot>
+            <th>Total</th>
+            <td>600.000.000</td>
+            <td></td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th>Please please me</th>
+                <td>52.000.000</td>
+                <td>1963</td>
+            </tr>
+            <tr>
+                <th>With the Beatles</th>
+                <td></td>
+                <td>1963</td>
+            </tr>
+            <tr>
+                <th>A Hard Day's Night</th>
+                <td></td>
+                <td>1964</td>
+            </tr>
+            <tr>
+                <th>Beatles for Sale</th>
+                <td></td>
+                <td>1964</td>
+            </tr>
+            <tr>
+                <th>Help!</th>
+                <td></td>
+                <td>1965</td>
+            </tr>
+            <tr>
+                <th>Robber Soul</th>
+                <td></td>
+                <td>1965</td>
+            </tr>
+            <tr>
+                <th>Revolver</th>
+                <td></td>
+                <td>1966</td>
+            </tr>
+            <tr>
+                <th>Sgt. Pepper's Lonely Hearts Club Band</th>
+                <td></td>
+                <td>1967</td>
+            </tr>
+            <tr>
+                <th>Magical Mystery Tour</th>
+                <td></td>
+                <td>1967</td>
+            </tr>
+            <tr>
+                <th>The Beatles (White Album)</th>
+                <td></td>
+                <td>1968</td>
+            </tr>
+            <tr>
+                <th>Yellow Submarine</hth>
+                <td></td>
+                <td>1969</td>
+            </tr>
+            <tr>
+                <th>Abbey Road</th>
+                <td></td>
+                <td>1969</td>
+            </tr>
+            <tr>
+                <th>Let it be</th>
+                <td></td>
+                <td>1970</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
