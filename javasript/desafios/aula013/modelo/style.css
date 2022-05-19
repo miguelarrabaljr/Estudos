@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(68, 68, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.363);
+    font-size: 3em;
+    color: aliceblue;
+}
+section{
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.692);
+    text-align: center;
+    margin: auto;
+}
+div{
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.363);
+    color: aliceblue;
+}

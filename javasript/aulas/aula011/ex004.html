@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nascionalidade</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+            ;
+        }
+        main{
+            width: 400px;
+            height: 250px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.767);
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+            padding: 20px;
+        }
+        p{
+            text-align: center;
+        }
+        input#place{
+            width: 100px;
+        } 
+        div{
+            padding-top: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Sua Nascionalidade</h1>
+        <p>Onde você nasceu? <input type="text" name="text" id="place"> <input type="button" value="Pesquisar" onclick="pesquisar()"></p>
+        <div id="answer">
+        
+        </div>
+    </main>
+    <script>
+        function pesquisar() {
+            var country = document.querySelector('input#place')
+            var answer = document.querySelector('div#answer')
+            var place = String(country.value)
+            if (place == 'Brasil') {
+                answer.innerHTML = `Você é Brasileiro(a)`
+            }
+            else {
+                answer.innerHTML = `Você é estrangeiro(a)`
+            }
+            
+        }
+    </script>
+</body>
+</html>
