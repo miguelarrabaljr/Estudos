@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(68, 68, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.363);
+    font-size: 3em;
+    color: aliceblue;
+}
+section{
+    max-width: 500px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.692);
+    text-align: center;
+    margin: auto;
+}
+div{
+    padding: 10px;
+    
+}
+div#in{
+    font-weight: 600;
+}
+input#numberin{
+    width: 60px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.315);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+select#seltab{
+    width: 180px;
+    height: 250px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.692);
+    line-height: 5%;
+    background-color: rgba(255, 0, 0, 0.315);
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.363);
+    color: aliceblue;
+}
